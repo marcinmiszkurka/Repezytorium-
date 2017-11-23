@@ -20,7 +20,6 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CLionProjects/w domu/main.c" timestamp="1511468673141" />
       <file name="$USER_HOME$/Pulpit/kalk1/kalk1.c" timestamp="1511436715086">
         <mark key="n" line="3" column="0" />
       </file>
@@ -54,21 +53,24 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
+        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
+        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
-      <register name="3" type="8">
+      <register name="4" type="8">
         <text>#</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
       <register name="-" type="4">
