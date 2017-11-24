@@ -3,22 +3,16 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/CLionProjects/untitled5/main.c" timestamp="1511449680877">
-        <mark key="[" line="76" column="0" />
-        <mark key="]" line="64" column="61" />
-        <mark key="m" line="78" column="29" />
-        <mark key="." line="64" column="61" />
-      </file>
       <file name="/start_script.py" timestamp="1511468536366">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Dummy.txt" timestamp="1511445324560">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CLionProjects/untitled4/main.c" timestamp="1511447842120">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+      <file name="$USER_HOME$/CLionProjects/w domu/main.c" timestamp="1511508213007">
+        <mark key="[" line="6" column="0" />
+        <mark key="]" line="6" column="4" />
+        <mark key="." line="6" column="0" />
       </file>
       <file name="$USER_HOME$/Pulpit/kalk1/kalk1.c" timestamp="1511436715086">
         <mark key="n" line="3" column="0" />
@@ -27,11 +21,6 @@
         <mark key="[" line="6" column="13" />
         <mark key="]" line="8" column="0" />
         <mark key="." line="8" column="0" />
-      </file>
-      <file name="$USER_HOME$/CLionProjects/untitled6/library.c" timestamp="1511467617488">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CLionProjects/untitled2/main.c" timestamp="1511466351396">
         <mark key="'" line="23" column="0" />
@@ -47,6 +36,22 @@
       <file name="/fragment.m" timestamp="1511445324472">
         <mark key="[" line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/CLionProjects/untitled5/main.c" timestamp="1511449680877">
+        <mark key="[" line="76" column="0" />
+        <mark key="]" line="64" column="61" />
+        <mark key="m" line="78" column="29" />
+        <mark key="." line="64" column="61" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/untitled4/main.c" timestamp="1511447842120">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/CLionProjects/untitled6/library.c" timestamp="1511467617488">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="23" column="0" filename="$USER_HOME$/CLionProjects/untitled2/main.c" />
@@ -56,7 +61,7 @@
         <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
       </register>
       <register name="&quot;" type="4">
-        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
+        <text>printf</text>
       </register>
       <register name="2" type="4">
         <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
@@ -74,7 +79,7 @@
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>printf</text>
       </register>
     </registers>
     <search>
