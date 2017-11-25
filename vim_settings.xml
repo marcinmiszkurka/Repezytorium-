@@ -53,6 +53,11 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
+      <file name="$USER_HOME$/CLionProjects/untitled7/main.c" timestamp="1511530773410">
+        <mark key="[" line="24" column="28" />
+        <mark key="]" line="24" column="28" />
+        <mark key="." line="24" column="28" />
+      </file>
       <file name="$USER_HOME$/CLionProjects/w domu/kwadratowy_g_borowik.cpp" timestamp="1511510939664" />
       <file name="$USER_HOME$/CLionProjects/untitled6/library.c" timestamp="1511467617488">
         <mark key="[" line="0" column="0" />
@@ -65,28 +70,34 @@
     </jumps>
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
+        <text>{
+    
+
+}</text>
       </register>
       <register name="&quot;" type="4">
-        <text>p</text>
+        <text>co jest!</text>
       </register>
       <register name="2" type="4">
-        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
+        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
       </register>
       <register name="3" type="4">
+        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
+      </register>
+      <register name="4" type="4">
         <text encoding="base64">CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
-      <register name="4" type="8">
+      <register name="5" type="8">
         <text>#</text>
-      </register>
-      <register name="5" type="4">
-        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
       <register name="6" type="4">
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
+      <register name="7" type="4">
+        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
+      </register>
       <register name="-" type="4">
-        <text>p</text>
+        <text>co jest!</text>
       </register>
     </registers>
     <search>
