@@ -6,7 +6,7 @@
       <file name="/start_script.py" timestamp="1511468536366">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/Dummy.txt" timestamp="1512333907410">
+      <file name="/Dummy.txt" timestamp="1512336209338">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/CLionProjects/w domu/main.c" timestamp="1511508789216">
@@ -70,7 +70,9 @@
         <mark key="]" line="0" column="0" />
         <mark key="." line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/CLionProjects/Praca_w_domu_zadana_24.11.2017/kal_FI.c" timestamp="1512334100555" />
+      <file name="$USER_HOME$/CLionProjects/Praca_w_domu_zadana_24.11.2017/kal_FI.c" timestamp="1512336115747">
+        <mark key="[" line="2" column="1" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="23" column="0" filename="$USER_HOME$/CLionProjects/untitled2/main.c" />
