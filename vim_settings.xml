@@ -35,10 +35,10 @@
         <mark key="]" line="3" column="4" />
         <mark key="." line="3" column="4" />
       </file>
-      <file name="$USER_HOME$/CLionProjects/untitled9/main.c" timestamp="1512403750552">
-        <mark key="[" line="12" column="7" />
-        <mark key="]" line="12" column="7" />
-        <mark key="." line="12" column="7" />
+      <file name="$USER_HOME$/CLionProjects/untitled9/main.c" timestamp="1512404434850">
+        <mark key="[" line="8" column="32" />
+        <mark key="]" line="8" column="50" />
+        <mark key="." line="8" column="32" />
       </file>
       <file name="$USER_HOME$/CLionProjects/untitled2/main.c" timestamp="1511466351396">
         <mark key="'" line="23" column="0" />
@@ -87,37 +87,40 @@
         <text encoding="base64">ImplZG5vc3RrYSA9IE0iKQo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
+        <text encoding="base64">CiAgICB9</text>
       </register>
       <register name="&quot;" type="4">
-        <text>wybor = M)</text>
+        <text encoding="base64">CiAgICB9</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
+      </register>
+      <register name="3" type="4">
         <text>{
     
 
 }</text>
       </register>
-      <register name="3" type="4">
+      <register name="4" type="4">
         <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text encoding="base64">CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
-      <register name="6" type="8">
+      <register name="7" type="8">
         <text>#</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
       <register name="8" type="4">
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
+      <register name="9" type="4">
+        <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
+      </register>
       <register name="-" type="4">
-        <text>wybor = M)</text>
+        <text encoding="base64">I2luY2x1ZGUgPGNvbmlvLmg+</text>
       </register>
     </registers>
     <search>
