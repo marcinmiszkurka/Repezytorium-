@@ -82,6 +82,11 @@
       <file name="$USER_HOME$/CLionProjects/Praca_w_domu_zadana_24.11.2017/kal_FI.c" timestamp="1512336115747">
         <mark key="[" line="2" column="1" />
       </file>
+      <file name="$USER_HOME$/CLionProjects/untitled10/main.c" timestamp="1512638804746">
+        <mark key="[" line="30" column="8" />
+        <mark key="]" line="30" column="5" />
+        <mark key="." line="30" column="8" />
+      </file>
     </filemarks>
     <jumps>
       <jump line="23" column="0" filename="$USER_HOME$/CLionProjects/untitled2/main.c" />
@@ -91,41 +96,48 @@
         <text encoding="base64">ImplZG5vc3RrYSA9IE0iKQo=</text>
       </register>
       <register name="1" type="4">
-        <text encoding="base64">ICAgICAgICAgICAKICAgIHtwcmludGYoInBvZGFqIG9kbGVnxYJvxZvEhyB3IGttIik7CiAgICAgICAgc2NhbmYoIiVjIiwgJmplZG5vc3RrYSk=</text>
+        <text>Przeliczanie odległości km, jard, mila\n&quot;);
+    d</text>
       </register>
       <register name="&quot;" type="4">
-        <text>float</text>
+        <text>Przeliczanie odległości km, jard, mila\n&quot;);
+    d</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">Ci8vLi4u</text>
+      </register>
+      <register name="3" type="4">
+        <text encoding="base64">d2l0Y2ggKCkKewo=</text>
+      </register>
+      <register name="4" type="4">
+        <text>//przeliczanie odległości zajęcia z dnia 04.12.2017
+// 1 mila = 1760 jardów
+// 1 mila = 1.609 km
+// mile  = 1.609*km
+// jardy = mle/1760
+// km    = mile/1.609</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">ICAgICAgICAgICAKICAgIHtwcmludGYoInBvZGFqIG9kbGVnxYJvxZvEhyB3IGttIik7CiAgICAgICAgc2NhbmYoIiVjIiwgJmplZG5vc3RrYSk=</text>
+      </register>
+      <register name="6" type="4">
         <text>ednostka,);
         printf(&quot;p</text>
       </register>
-      <register name="3" type="4">
+      <register name="7" type="4">
         <text encoding="base64">CiAgICB9</text>
       </register>
-      <register name="4" type="4">
+      <register name="8" type="4">
         <text encoding="base64">I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
       </register>
-      <register name="5" type="4">
+      <register name="9" type="4">
         <text>{
     
 
 }</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CnZvaWQgbWFpbigpIHsKICAgIHByaW50ZigiXG4iKTsKICAgIHJldHVybiAwOwp9</text>
-      </register>
-      <register name="7" type="4">
-        <text encoding="base64">I2luY2x1ZGUgImxpYnJhcnkuaCIK</text>
-      </register>
-      <register name="8" type="4">
-        <text encoding="base64">CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQ==</text>
-      </register>
-      <register name="9" type="8">
-        <text>#</text>
-      </register>
       <register name="-" type="4">
-        <text>float</text>
+        <text />
       </register>
     </registers>
     <search>
