@@ -1,0 +1,139 @@
+program, który reaguje na parametry podane w lini polecenń. Na main w lini uruchomienia i parametry 1 2 3 w postaci sumy ciągu znakó. Tablice. Program, który będzie mógł używać paramertów z lini poleceń
+w DEV-C++ należy wybrać Uruchom > Parametry... i teraz wpisać parametry jeden dwa trzy
+
+
+Tablica Słów
+ver - 1
+********************
+
+#include <stdio.h>
+#include <string.h>
+int main(int liczba_slow, char* tablica_slow[]){
+	
+	for( int licznik = 0; licznik < liczba_slow; ++ licznik){
+		
+		printf("%s\n", tablica_slow[licznik]);
+	}
+	
+	
+	return 0;
+}
+
+ver - 2 
+*************************
+
+teraz chodzi o napisanie kodu, który sprawdzi 
+czy jest odpowiedznia liczba czy nie 
+musi być trz . Mogą być trzy słowa lub trzy liczby
+
+#include <stdio.h>
+#include <string.h>
+int main(int liczba_slow, char* tablica_slow[]){
+	
+	char wyjscie[200] = {0};
+
+	printf("Nazwa programu: %s\n", tablica_slow[0]);
+	
+	if(liczba_slow != 3+1){
+		printf("\nNiepoprawna liczba parametrow");
+		
+	}
+	else{
+	
+	for( int licznik = 0; licznik < liczba_slow; ++ licznik){
+		
+		printf("%s\n", tablica_slow[licznik]);
+	}
+	
+}
+	return 0;
+}
+
+--------------------------------------------------
+**************************************************
+--------------------------------------------------
+napisać program, który liczy wartość wielomianu
+ 
+y = 5 + 2x - 7x2(kwadrar)
+y = a0 + a1x +a2X2 + a3x3+ a4x4 + ....
+./main.o x a0 a1 a2 ....
+przed uruchomieniem podajemy parametry np:  1 7 5 2 -7 może być 1 2
+5+3,4   -20.23=-11.83
+
+
+ver - 1
+*********
+
+#include <stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main( int liczba_slow, char* tablica_slow[])
+{
+	double x;
+	double wynik = 0.0; //w takiej formie jest wpisane żeby był to wynik rzeczywisty
+	double potega_x = 1.0;
+	 
+	
+	if (liczba_slow > 2){ // pierwszy parametr to nazwa programu
+	
+				x = atof(tablica_slow[1]);
+				for (int licznik = 2; licznik < liczba_slow; ++licznik){
+				wynik += potega_x * atof(tablica_slow[licznik]);
+				potega_x *= x;
+	}
+	printf ("Wynik: %lf", wynik);
+	}else{
+		printf(" Niepoprawna liczba parametrów");
+	}
+	
+	
+	return 0;
+}
+
+
+----------------------------------------------------
+****************************************************
+----------------------------------------------------
+
+Taylor Series. Wyliczymy równianie Taylora 
+
+ex = blablabla ze strony http://www.efunda.com/math/taylor_series/exponential.cfm
+
+
+ver 1 
+
+#include <stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#defline DOKLADNOSC 5
+int main( int liczba_slow, char* tablica_slow[])
+{
+	double x;
+	double wynik = 1.0; 
+	double silnia = 1.0;
+	double potenga_x = 1.0;
+	 
+	
+	if (liczba_slow == 2){ // pierwszy parametr to nazwa programu
+	
+				x = atof(tablica_slow[1]);
+				for (int licznik = 1; licznik < DOKLADNOSC; ++licznik){
+					potega_x *= x;
+					SILNIA *= LICZNIK;
+					wynik += potega_x / silnia;;
+	}
+	printf ("Wynik: %lf", wynik);
+	}else{
+		printf(" Niepoprawna liczba parametrów");
+	}
+	
+	
+	return 0;
+}
+
+---------------------------------------------------
+*************************************************
+
+W DOMU !
+napisdać program j/w ale nie do silni tylko do sinusa. 
+na git init w ubuntu działa a na dev niebardzo
