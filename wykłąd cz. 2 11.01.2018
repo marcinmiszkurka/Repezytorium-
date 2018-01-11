@@ -1,0 +1,82 @@
+string pozwala na wykonywanie funkcji na tablicach
+
+kolejne zajęcia stringi podstringi i inne patataje
+co to pointer 
+wynikiem destination jest suma
+gwiazdka przy czarach char to wskaźnik. Zadelkarowana zmienna w ten sposób to zalokowane miejsce w pamięci na jeden znak 
+jeżeli deklarujemy jakąśzmienną np. w double który ma 8 bajtów czyli 8 kwadracików. jak damy zmienną zn char zajmnie jeden bajt, wskaźnik nie dokońca adres w pamięci mówi sipotocznie ale jest to adrs na konkjretny bajt. Wskaźnik nie ma znaczenia czy char czy double. POsługujemy się wskaźnikami bo gdybyćśmy chgcieli doiuble poisortować to nie mysimy sirtowaćwszystkiego tylko wskaźniki. Ważne jest to, że jest to różne od adresowania. 
+
+strona użyteczna cpluplus.com. Jam języ k c jest podzbiorem
+-----------
+ver-1
+*********************************
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	
+	char ciag1[80];
+	char ciag2[80];
+	int wynik;
+	printf("Program do porownania czy w ciagu \nzgadzaja sie ale jeszcze nie wiem co\n  ");l
+	printf("podaj ciag pierwszy: \n"); gets(ciag1);
+	printf("podaj ciag drugi: \n"); gets(ciag2);
+	
+	//porównanie strcmp
+	wynik = strcmp(ciag1, ciag2);
+	printf("%d\n", wynik );  // wynik jest typu calokwitego
+	return 0;
+}
+
+ver-1.1
+***********************************
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	
+	char ciag1[80];
+	char ciag2[80];
+	char *tymczasowy;
+	int wynik;
+	printf("Program do porownania czy w ciagu \nzgadzaja sie ale jeszcze nie wiem co\n  ");
+	printf("podaj ciag pierwszy: \n"); gets(ciag1);
+	printf("podaj ciag drugi: \n"); gets(ciag2);
+	
+	//porównanie strcmp
+	wynik = strcmp(ciag1, ciag2);
+	printf("Wynik porownania: \n %d\n", wynik );  // wynik jest typu calokwitego
+	
+	tymczasowy = strstr(ciag1, ciag2); //strstr string w stringu
+	printf("%s", tymczasowy);
+	return 0;
+}
+
+ver-1.2
+*********************************
+
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	
+	char ciag1[80];
+	char ciag2[80];
+	char *tymczasowy;
+	int wynik;
+	printf("Program do porownania czy w ciagu \nzgadzaja sie ale jeszcze nie wiem co.\n  ");
+	printf("Jakis podciag\n\n  ");
+	printf("Podaj ciag pierwszy: \n"); gets(ciag1);
+	printf("Podaj ciag drugi: \n"); gets(ciag2);
+	
+	//porównanie strcmp
+	wynik = strcmp(ciag1, ciag2);
+	printf("Wynik porownania: \n %d\n", wynik );  // wynik jest typu calokwitego
+	
+	tymczasowy = strstr(ciag1, ciag2); //strstr string w stringu
+	printf("%s", tymczasowy ? tymczasowy :"nie zawiera");
+	return 0;
+}
