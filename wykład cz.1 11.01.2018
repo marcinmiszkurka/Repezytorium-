@@ -1,0 +1,199 @@
+WYKŁAD
+-----------------
+Makrro grneracja
+#define Makro1(x) x = sin(x) + 3 * x;
+..............
+double akr = 2.544;
+Makro1 (akr)   // akr = sin(akr) + 3 * akr;
+//
+#define Makro2 (x,y) x=x+y-1;
+....................
+double alfa = -12.74, beta = 0.21;
+Makro2 (alfa, Beta) // alfa=alfa + Beta
+
+Kompilacjja Warunkowa
+
+#if wyrazenie_stale_1
+	tekst_zrodlowy_1
+#elif wyrazenie_stale_2
+	tekst_zrodlowy_2
+..........
+#else
+	tekst_zrodlowy_n
+#endif
+
+
+
+Zastępywanie znaków:  	#define
+Test zdefiniowania
+
+#define	identyfikator
+//1 : gdy identyfikator był już zdefiniowany
+// 0 : gdy identyfikator jest nie zdefinowany
+
+#if definied 
+---------------------------------------------------
+
+
+ĆWICZENIA
+---------
+ver 1
+*************
+
+dostęp do tablicy z błędem
+ver 1
+#include <stdio.h>
+
+
+int main()
+{
+char *napis = "waniki.";
+*(napis +1) = 'y'
+printf("%s\n", napis);
+	return 0;
+}
+
+
+
+ver 2
+***************
+bez błędu 
+
+#include <stdio.h>
+
+
+int main()
+{
+char napis [16] = "pamolka.";
+*(napis + 1) = 'o';
+napis[3] = 'y';
+printf("%s\n", napis);
+	return 0;
+}
+
+
+ver3
+*************
+zadanie polega na utworzeniu tablicy i do jej dostępie.
+następnie nalezy obliczyć sinusa ale nie wiem jak
+
+#include <stdio.h>
+
+int main()
+{
+	const char ciag_zn[20] = "Ala ma kota";
+	int histogram[26] = {0};
+	
+	return 0;
+	
+	}
+
+
+ver3a
+
+#include <stdio.h>
+
+int main()
+{
+	const char ciag_zn[20] = "Ala ma kota";
+	int histogram[26] = {0};
+	while (ciag_zn[licznik] != 0){
+		
+		++licznik;
+		
+	}
+	
+	for(int licznik =0; ciag_zn[licznik] !=0; ++licznik){
+	}
+	return 0;
+	
+	}
+
+ver3b
+
+#include <stdio.h>
+
+int main()
+{
+	const char ciag_zn[20] = "Ala ma kota";
+	int histogram[26] = {0};
+	char znak;
+	int licznik = 0;
+	while (ciag_zn[licznik] != 0){
+		znak = ciag_zn[licznik]
+		if(znak >= 'a') && (znak<='z'){
+			histogram[znak - 'a']
+			
+		}
+		++licznik;
+		
+	}
+	
+	for(int licznik =0; ciag_zn[licznik] !=0; ++licznik){
+	}
+	return 0;
+	
+	}
+
+
+ver3c
+
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+	const char ciag_zn[20] = "Ala ma kota";
+	int histogram[26] = {0};
+	char znak;
+	int licznik = 0;
+	while (ciag_zn[licznik] != 0){
+		znak = ciag_zn[licznik];
+		if ((znak >= 'a') && (znak <= 'z')){
+		
+			histogram[znak - 'a'];
+			
+		}
+		++licznik;
+		
+	}
+		// alternatywnie petla for zamiast while
+//	for(int licznik =0; ciag_zn[licznik] !=0; ++licznik){
+//	}
+	for (int x = 0; x < 26; ++x)
+		{
+			printf("%c -> %d,\n", 'a' + x, histogram[x]);
+		}
+
+	return 0;
+	
+	}
+
+
+ver 3d
+
+#include <stdio.h>
+#include <conio.h>
+int main(){
+	const char ciag_zn[20] = "Ala ma kota";
+	int histogram[26] = {0};
+	char znak;
+	int licznik = 0;
+	int  x ;
+	while ((ciag_zn[licznik] != 0)){
+		znak = ciag_zn[licznik];
+		if ((znak >= 'a') && (znak <= 'z')){
+					histogram[znak - 'a'];
+		}
+		++licznik;
+		}
+		// alternatywnie petla for zamiast while
+//	for(int licznik =0; ciag_zn[licznik] !=0; ++licznik){
+//	}
+	for ( x = 0; x < 26; ++x){
+			printf("%c -> %d,\n", 'a' + x, histogram[x]);
+		}
+
+	return 0;
+	
+	}
+
