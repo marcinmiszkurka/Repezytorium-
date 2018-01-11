@@ -6,6 +6,7 @@ int main()
 	int histogram[26] = {0};
 	char znak;
 	int licznik = 0;
+	int x;
 	while (ciag_zn[licznik] != 0){
 		znak = ciag_zn[licznik];
 		if ((znak >= 'a') && (znak <= 'z')){
@@ -19,7 +20,7 @@ int main()
 		// alternatywnie petla for zamiast while
 //	for(int licznik =0; ciag_zn[licznik] !=0; ++licznik){
 //	}
-	for (int x = 0; x < 26; ++x)
+	for (x = 0; x < 26; ++x)
 		{
 			printf("%c -> %d,\n", 'a' + x, histogram[x]);
 		}
