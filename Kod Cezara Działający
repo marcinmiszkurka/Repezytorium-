@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+void odszyfruj (int wybor, int[]);
+void zaszyfruj (int wybor, int[]);
+void zeruj_stat (int[]);
+
+int main(){   
+int ile;  
+int wybor;
+    int stat[128];  
+    printf("######################################\n");    
+    printf("#            SZYFR CEZARA            #\n");    
+    printf("#         WSPOL ssinf2017 gr I       #\n");    
+    printf("#           Marcin Miszkurka         #\n");    
+    printf("######################################\n\n");
+    printf("1 aby zaszyfrowac tekst\n0 aby odszyfrowac: \n ");    
+    scanf("%d", &wybor);    
+    printf ("o ile przesuniecie:\n" , ile);    
+    scanf("%d", &ile);
+    while(getchar() != '\n');    
+    zeruj_stat(stat);    
+    if (wybor == 1) zaszyfruj(ile, stat);    
+    else if (wybor == 0) odszyfruj(ile, stat);
+    //system("PAUSE");    
+    return 0;}
+void zeruj_stat(int stat[]){    int i;    
+for(i=0; i<128; i=i+1) stat[i] = 0;}
+void odszyfruj(int ile, int stat[]){    
+char ch;    
+int i;    
+printf("Podaj text do dekodowania:\n " );    
+ch = getchar();    
+while(ch != '\n')    { stat[ch] = stat[ch] + 1;        
+putchar(ch - ile); ch = getchar();    }    putchar(ch);    
+printf("Statystyki zaszyfrowanego tekstu:\n");   
+for(i=0; i<128; i=i+1)    { if (stat[i] > 0)    
+printf("\n\"%c\"=%d\t\n",i,stat[i]);    }    
+printf("\nStatystyki niezaszyfrowanego tekstu:\n");    
+for(i=0; i<128; i=i+1)    { if (stat[i] > 0)     
+printf("\n\"%c\"=%d\t\n",i-ile,stat[i]);    }    
+printf("\n");}
+void zaszyfruj(int ile, int stat[]){    
+char ch;    
+int i;    
+printf("Podaj tekst do zaszyfrowania:\n");    
+ch = getchar();    while(ch != '\n')    
+{ stat[ch] = stat[ch] + 1;        
+putchar(ch + ile);       
+ch = getchar();    }    
+putchar(ch);   
+printf("Statystyki niezaszyfrowanego tekstu:\n");    
+for(i=0; i<128; i=i+1)    { if (stat[i] > 0)     
+printf("\n\"%c\"=%d\t\n",i,stat[i]);    }    
+printf("\n Statystyki zaszyfrowanego tekstu:\n");    
+for(i=0; i<128; i=i+1)    { if (stat[i] > 0)     
+printf("\n\"%c\"=%d\t\n",i+ile,stat[i]);    }   
+printf("\n");}
