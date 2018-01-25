@@ -1,0 +1,24 @@
+struct l_zespolona{
+double  re;
+double im;
+};  //PAMIĘTAMY O ŚREDNIKU
+//teraz deklarujemy liczby zespolone
+
+	// l.zespolona a,b; - to lepiej wywalić bo sie będzie psuć
+//funkcja dodaj
+struct l_zespolona dodaj( struct l_zespolona x, struct l_zespolona y)
+	{
+		struct l_zespolona z;
+		z.re = x.re + y.re;
+		z.im = x.im +y.im;
+
+	return z;
+}
+int main()
+{
+	struct l_zespolona a = {0.1, 5.1}, b ={ -1.3, 2.4};
+	struct l_zespolona wynik; 
+wynik = dodaj (a,b);
+printf("a =(%lf, %lf) + b =(%lf, %lf) = (%lf, %lf)", a.re, a.im, b.im, wynik.re, wynik. im);
+return 0;
+}
