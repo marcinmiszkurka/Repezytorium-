@@ -10,7 +10,7 @@ int main()
     int ile;
     int wybor;
 
-    int stat[128];
+    int tab [128];
     
     printf("######################################\n");
     printf("#            SZYFR CEZARA            #\n");
@@ -25,15 +25,15 @@ int main()
 
     while(getchar() != '\n');
     if (wybor == 1)
-	zaszyfruj(ile, stat);
+	zaszyfruj(ile, tab);
     else if (wybor == 0)
-	odszyfruj(ile, stat);
+	odszyfruj(ile, tab);
     return 0;
 
 }
 
 
-void odszyfruj(int ile, int stat[])
+void odszyfruj(int ile, int tab[])
 {
     char ch;
     int i;
@@ -48,7 +48,7 @@ void odszyfruj(int ile, int stat[])
     printf("\n");
 }
 
-void zaszyfruj(int ile, int stat[])
+void zaszyfruj(int ile, int tab[])
 {
     char ch;
     int i;
